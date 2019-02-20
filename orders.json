@@ -1,0 +1,28 @@
+{
+    "0": {
+        "product_name": "asd",
+        "qty": "234",
+        "price": "23",
+        "date": "2019-02-14",
+        "total": "5382"
+    },
+    "1": {
+        "product_name": "234",
+        "qty": "23",
+        "price": "34",
+        "date": "2019-02-21",
+        "total": "782"
+    },
+    "2": {
+        "product_name": "23",
+        "qty": "434",
+        "price": "23",
+        "date": "2019-02-13",
+        "total": "9982"
+    },
+    "total": {
+        "total_value_before_tax": "16146.00",
+        "total_tax_value": "0.00",
+        "total_value": "16146.00"
+    }
+}

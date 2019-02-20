@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Auth::routes();
+
+Route::get('/', 'OrderController@index')->name('home');
+Route::get('/order', 'OrderController@index')->name('order');
+Route::post('/order', 'OrderController@store')->name('save-order');
